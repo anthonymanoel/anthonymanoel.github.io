@@ -1,0 +1,88 @@
+/*cores 
+primary: #FEF9F9;
+secundary: #0000;
+terciary: rgba(54, 63, 114, 1);
+
+
+/*CUSTOM*/
+#background-img{
+    display: inline-table;
+    width: 100%;
+    height:100%;
+    position: inherit;
+    background-repeat: repeat-y;
+    background-attachment:scroll;
+}
+body, html{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}
+#header{
+    width: 100%;
+    background-color: transparent;
+}
+/*posição da barra de navegaçao no quesito largura*/
+#header .navbar-collapse{
+    width: auto;
+}
+header {
+    background-color: white;
+}
+
+/*estilizando barra de navegação=nav-link no html*/
+
+#header .nav-link{
+    font-weight: 600;
+    text-transform:capitalize;
+    color:black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+
+    border-bottom: solid transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px;
+    color:rgba(54, 63, 114, 1);
+}
+ul {
+    list-style: none;
+}
+/*Estilizando icons*/
+.shopping-cart{
+    position: absolute;
+width: 32px;
+height: 32px;
+right: 0px;
+top: 3px;
+}
+.brazilflag{
+    position: absolute;
+width: 38px;
+height: 32px;
+right: 70px;
+top: 3px;
+}
+.user{
+    position: absolute;
+width: 32px;
+height: 32px;
+right: 35px;
+top: 3px;
+}
+/*All custom page before this line*/
+/*-------------------------------*/
+
+/*Responsive code*/
+/*Medium disp based at tablets*/
+@media (min-width: 992){
+    #header .nav-link .menu-overlay{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 991.98px) {
+    #header .menu-overlay .menu-close{
+        width: 100%;
+    }
+ }
