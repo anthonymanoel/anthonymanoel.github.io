@@ -53,29 +53,134 @@ ul {
     position: absolute;
 width: 32px;
 height: 32px;
-right: 0px;
-top: 3px;
-}
-.brazilflag{
-    position: absolute;
-width: 38px;
-height: 32px;
-right: 70px;
+right: 110px;
 top: 3px;
 }
 .user{
     position: absolute;
 width: 32px;
 height: 32px;
-right: 35px;
+right: 70px;
 top: 3px;
+}
+/*background and texts*/
+.background-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+}
+.principal{
+    position: absolute;
+width: 1049px;
+height: 42px;
+left: 12%;
+top: 341px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.subparagrafo{
+    position: absolute;
+width: 746px;
+height: 134px;
+left: 10%;
+top: 516px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+text-decoration-line: underline;
+color: #969696;
+}
+.impactado{
+    position: absolute;
+width: 411px;
+height: 59px;
+left: 7%;
+top: 312px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #969696;
+}
+/*add side buttons carrousel*/
+/*it's like bottons on left of the page that will contain imgs*/
+#elipse{
+    border-radius: 50%;
+    display: inline-block;
+position: absolute;
+width: 10px;
+height: 10px;
+left: 45px;
+top: 55%;
+border: #0500ff;
+
+background: #0500FF;
+}
+#elipse a:hover{
+    color: aliceblue;
+    background: aliceblue;
+}
+/*---------------*/
+#elipse2{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 45px;
+    top: 58%;
+    border: white;
+    background: white;
+}
+#elipse2 :hover{
+    color:#0500ff;
+}
+/*----------------------*/
+#elipse3{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 61%;
+    left: 45px;
+    border:white;
+    background: white;
+}
+#elipse3 :hover{
+    color: #0500ff;
+}
+/*---------------------*/
+#elipse4{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 64%;
+    left: 45px;
+    border: white;
+    background: white;
+}
+#elipse4 :hover{
+    color: #0500ff;
 }
 /*All custom page before this line*/
 /*-------------------------------*/
 
 /*Responsive code*/
 /*Medium disp based at tablets*/
-@media (min-width: 992){
+@media only screen and (min-width: 992){
     #header .nav-link .menu-overlay{
         margin-right: 5%;
         margin-left: 5%;
