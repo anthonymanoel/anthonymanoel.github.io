@@ -83,7 +83,7 @@ font-size: 72px;
 line-height: 88px;
 text-align: center;
 
-color: #FFFFFF;
+color: #e4e7ec;
 }
 .subparagrafo{
     position: absolute;
@@ -96,7 +96,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 44px;
-color: #969696;
+color: #d0d5dd;
 }
 .impactado{
     position: absolute;
@@ -108,7 +108,7 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-color: #969696;
+color: #d0d5dd;
 }
 .redirecao{
     position: absolute;
@@ -130,67 +130,7 @@ color: #FFFFFF;
 
 /*add side buttons carrousel*/
 /*it's like bottons on left of the page that will contain imgs*/
-#elipse{
-    border-radius: 50%;
-    display: inline-block;
-position: absolute;
-width: 10px;
-height: 10px;
-left: 45px;
-top: 55%;
-border: #0500ff;
 
-background: #0500FF;
-}
-#elipse a:hover{
-    color: aliceblue;
-    background: aliceblue;
-}
-/*---------------*/
-#elipse2{
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 45px;
-    top: 58%;
-    border: white;
-    background: white;
-}
-#elipse2 :hover{
-    color:#0500ff;
-}
-/*----------------------*/
-#elipse3{
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 61%;
-    left: 45px;
-    border:white;
-    background: white;
-}
-#elipse3 :hover{
-    color: #0500ff;
-}
-/*---------------------*/
-#elipse4{
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 64%;
-    left: 45px;
-    border: white;
-    background: white;
-}
-#elipse4 :hover{
-    color: #0500ff;
-}
 /*All custom page before this line*/
 /*-------------------------------*/
 
